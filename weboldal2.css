@@ -19,17 +19,16 @@ h1{
     background-size: 100%;
     position: relative;
     background-image: url(banner.jpg);
-    background-size: cover;
+/*    background-size: cover;*/
     height: auto;
     /* ennek az elemnek a magassága a böngésző szélességének 40%-a (verticalWidth) */
     height: 30vw;
     color: white;
 }
 
-}
+
 .menu{
     list-style: none;
-    
     padding: 0;
     margin-left: 30%;
 }
