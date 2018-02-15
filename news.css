@@ -1,0 +1,172 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(242, 237, 228);
+}
+
+header, main {
+    width: 900px;
+    margin: 40px auto 0 auto;
+}
+
+
+.logo{
+    display: inline-block;
+    width: 320px;
+}
+
+.logo > h1 {
+    font-size: 40px;    
+    border-bottom: 1px solid black;
+}
+.logo > h2 {
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 8px;
+    line-height: 2px;
+}
+
+/* jobbra igazitva */
+.menu-container{
+    margin: 40px;
+    float: right;
+    word-spacing: 20px;
+}
+
+.menu {
+    list-style: none;
+}
+.menu-item {
+    display: inline;
+}
+.menu-item:nth-child(1) {
+    border-bottom: 4px solid red;
+}
+
+.menu-item:nth-child(2) {
+    border-bottom: 4px solid lightblue;
+}
+
+.menu-item:nth-child(3) {
+    border-bottom: 4px solid plum;
+}
+
+.menu-item:nth-child(4) {
+    border-bottom: 4px solid green
+}
+
+.menu-item:nth-child(5) {
+    border-bottom: 4px solid yellow;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item:hover {
+    border-bottom: 4px solid black;
+}
+
+.main-article {
+    margin-top: 40px;
+}
+
+.main-article-content > h1 {
+    font-size: 35px;
+    padding: 15px 15px 5px 15px;
+}
+
+.main-article-content > h2 {
+    color: white;
+    line-height: 1.5;
+    font-size: 19px;
+}
+.main-article-content p {
+    width: 700px;
+}
+
+.crop {
+    height: 500px;
+    overflow: hidden;
+}
+
+.main-article-image {
+    width: 100%;
+    position: absolute;
+}
+
+/* positioning!!!!! */
+.main-article {
+    position: relative;
+}
+
+.main-article-content {
+    margin: -150px 0px 15px;
+    position: relative;
+    color: white;
+    width: 540px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.tag a{
+    color: white;
+    padding: 5px;
+}
+
+.tag-politics a {
+    background-color: red;
+}
+
+.tag-sports a {
+    background-color: green;
+}
+
+.tag-politics{
+}
+.continue-to-article{
+    background-color: blue;
+    color: white;
+    margin-top: -101px;
+    margin-right: -80px;
+    width: 82px;
+    height: 30px;
+    float: right;
+}
+.continue-to-article a {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.article-half-width {
+    margin-top: 60px;
+}
+
+.half-width-crop{
+    height: 200px;
+    overflow: hidden;
+}
+
+.article-half-width .tag{
+    margin-top: -25px;
+}
+.article-half-width h1, .article-half-width h2 {
+    padding: 0;
+    margin: 0;
+}
+.article-half-width h2 {
+}
+.article-half-width {
+    width: 45%;
+    background-color: #e2e2e2;
+}
+
+/* jobra */
+.article-right {
+    float: right;
+}
+/* balra */
+.article-left {
+    float: left;
+}
