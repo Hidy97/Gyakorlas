@@ -47,10 +47,12 @@ h1{
     width: 100px;
     height: 30px;
     text-align: center;
+    margin-left: -200px;
 }
 
 .company-image{
     float: right;
+    position: relative;
 }
 
 .company-intro{
@@ -62,8 +64,17 @@ h1{
     font-size: 30px;
     background-color: rgba(40, 70, 66, 0.4)
 }
+.main-container{
+    margin-left: 300px;
+    
+}
 footer {
-    text-align: center;
-    background: rgba(10, 123, 115, 100);
+    position: absolute;
     height: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 12px;
+    background: rgba(10, 123, 115, 100);
+    text-align: center;
 }
