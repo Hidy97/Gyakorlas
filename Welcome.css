@@ -55,28 +55,25 @@ h1{
 
 
 .submenu{
-    display: none;
     cursor: pointer;
     position: absolute;
 /*    transition: opacity, .5 ease-in-out;*/
     top: 55px;
-    left: 0;
     padding: 0;
 }
 
 .submenu-item{
-    display: inline-block;
     list-style: none;
-    text-align: center;
-    width: 120px;
+    width: 200px;
+    height: 40px;
 }
 
-.main-menu-item:hover, .submenu:hover{
+.main-menu-item:hover > .submenu:hover{
     display: inline-block;
     background: rgba(41, 47, 48, .2);
 }
 
-.submenu-item:hover{
+.submenu:hover, .submenu-item:hover{
     display: inline-block;
     background: rgba(41, 47, 48, .7);
 }
