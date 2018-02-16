@@ -10,6 +10,9 @@ header {
     font-weight: 300;
 }
 
+main{
+    margin: 0 auto;
+}
 h1{
     margin: 20px 20px 20px 20px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.65) 
@@ -50,10 +53,6 @@ h1{
     margin-left: -200px;
 }
 
-.company-image{
-    float: right;
-    position: relative;
-}
 
 .company-intro{
     display: block;
@@ -64,17 +63,28 @@ h1{
     font-size: 30px;
     background-color: rgba(40, 70, 66, 0.4)
 }
+
 .main-container{
-    margin-left: 300px;
-    
+    margin: 0 auto;
+    width: 65%;
+    height: 100%;
+}
+
+.company-image{
+    float: right;
+}
+
+.lead {
+    font-weight: 700;
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
 }
 footer {
-    position: absolute;
-    height: 50px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 12px;
-    background: rgba(10, 123, 115, 100);
+    color: white;
+    background: rgba(40, 86, 70, 1.0);
     text-align: center;
+    padding: 10px;
+    height: 50px;
 }
