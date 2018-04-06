@@ -1,0 +1,14 @@
+{
+  "ignore": [
+    "order-alphabetical",
+	"box-model",
+    "outline-none",
+    "box-sizing",
+    "universal-selector",
+    "bulletproof-font-face"
+  ],
+  "warnings": [
+  ],
+  "errors": [
+  ]
+}
