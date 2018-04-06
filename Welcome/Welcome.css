@@ -14,11 +14,14 @@ header {
 }
 
 main {
-  width: 800px;
-  line-height: 1.6;
+    width: 800px;
+    line-height: 1.6;
     margin-left: 35%;
 }
 
+.company-image{
+    float: right;
+}
 h1{
     font-size: 40px;
     text-align: left;
@@ -42,43 +45,35 @@ h1{
 .main-menu-item {
     cursor: pointer;
     display: inline-block;
+    text-align: center;
     position: relative;
     width: 120px;
     height: 50px;
-    text-align: center;
     transition: background-color .5s ease-in-out;
 }
 
 
-.main-menu-item:hover, .submenu-item:hover{
-    visibility: visible;
-    background: rgba(41, 47, 48, .2);
-}
-.main-menu-item:hover > .submenu{
-    background: rgba(41, 47, 48, .7);
-    visibility: visible;
-    opacity: 1;
-}
 
 .submenu{
     cursor: pointer;
-    visibility: hidden;
-    list-style: none;
-    display: inline-block;
     position: absolute;
-    transition: opacity, .5 ease-in-out;
+/*    transition: opacity, .5 ease-in-out;*/
     top: 55px;
-    left: 0;
     padding: 0;
 }
 
 .submenu-item{
-    text-align: center;
-    width: 120px;
+    list-style: none;
+    width: 200px;
+    height: 40px;
 }
-.main-content{
-    width: 600px;
+
+.main-menu-item:hover > .submenu:hover{
+    display: inline-block;
+    background: rgba(41, 47, 48, .2);
 }
-.company-image{
-    float: right;
+
+.submenu:hover, .submenu-item:hover{
+    display: inline-block;
+    background: rgba(41, 47, 48, .7);
 }

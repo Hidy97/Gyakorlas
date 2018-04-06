@@ -10,6 +10,9 @@ header {
     font-weight: 300;
 }
 
+main{
+    margin: 0 auto;
+}
 h1{
     margin: 20px 20px 20px 20px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.65) 
@@ -19,17 +22,16 @@ h1{
     background-size: 100%;
     position: relative;
     background-image: url(banner.jpg);
-    background-size: cover;
+/*    background-size: cover;*/
     height: auto;
     /* ennek az elemnek a magassága a böngésző szélességének 40%-a (verticalWidth) */
     height: 30vw;
     color: white;
 }
 
-}
+
 .menu{
     list-style: none;
-    
     padding: 0;
     margin-left: 30%;
 }
@@ -48,11 +50,9 @@ h1{
     width: 100px;
     height: 30px;
     text-align: center;
+    margin-left: -200px;
 }
 
-.company-image{
-    float: right;
-}
 
 .company-intro{
     display: block;
@@ -63,8 +63,28 @@ h1{
     font-size: 30px;
     background-color: rgba(40, 70, 66, 0.4)
 }
+
+.main-container{
+    margin: 0 auto;
+    width: 65%;
+    height: 100%;
+}
+
+.company-image{
+    float: right;
+}
+
+.lead {
+    font-weight: 700;
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+}
 footer {
+    color: white;
+    background: rgba(40, 86, 70, 1.0);
     text-align: center;
-    background: rgba(10, 123, 115, 100);
+    padding: 10px;
     height: 50px;
 }
